@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KOMIT UG</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="universitas gunadarma, sport center, barang, tempat">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/custom.css" id="theme-stylesheet">
+    <!-- Logo Header-->
+    <link rel="shortcut icon" href="asset/img/logo" type="image/x-icon">
+  </head>
+  <body>
+
+    <div id="all">
+
+      <!-- Top bar-->
+      <div class="top-bar">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6 d-md-block d-none">
+              <p>Hubungi Kami di KOMIT UG.</p>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-md-end justify-content-between">
+                <ul class="list-inline contact-info d-block d-md-none">
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-phone"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+                <div class="login"><a href="#" data-toggle="modal" data-target="#login-modal" class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Masuk</span></a></div>
+                <ul class="social-custom list-inline">
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Top bar end-->
+
+      <!-- Login Modal-->
+      <div id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modalLabel" aria-hidden="true" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 id="login-modalLabel" class="modal-title">Login Mahasiswa dan Dosen</h4>
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+              <form action="customer-orders.html" method="get">
+                <div class="form-group">
+                  <input id="email_modal" type="text" placeholder="Email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input id="password_modal" type="password" placeholder="Password" class="form-control">
+                </div>
+                <p class="text-center">
+                  <button class="btn btn-template-outlined"><i class="fa fa-sign-in"></i> Masuk</button>
+                </p>
+              </form>
+              <p class="text-center text-muted">Masuk menggunakan email universitas gunadarma</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Login modal end-->
+
+      <!-- dipinjam Modal-->
+      <div id="dipinjam-modal" tabindex="-1" role="dialog" aria-labelledby="dipinjam-modalLabel" aria-hidden="true" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 id="dipinjam-modalLabel" class="modal-title">Pinjam Ruangan</h4>
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+              <h4 class="text-center">Ruangan Sedang Di Gunakan, Silahkan Menggunakan Ruangan Lainnya.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Login modal end-->
+
+      <!-- Pinjam Modal-->
+      <div id="pinjam-modal" tabindex="-1" role="dialog" aria-labelledby="pinjam-modalLabel" aria-hidden="true" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 id="pinjam-modalLabel" class="modal-title">Pinjam Ruangan</h4>
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+              <form action="customer-orders.html" method="get">
+                <div class="form-group">
+                  <input id="" type="number" placeholder="" value="55418348" class="form-control" enabled>
+                </div>
+                <div class="form-group">
+                  <input id="" type="text" placeholder="" value="Noor Alizah Afifah R" class="form-control" enabled>
+                </div>
+                <div class="form-group">
+                  <input id="" type="text" placeholder="" value="1IA01" class="form-control" enabled>
+                </div>
+                <div class="form-group">
+                  <input id="" type="text" placeholder="" value="Teknologi Industri" class="form-control" enabled>
+                </div>
+                <div class="form-group">
+                  <input id="" type="text" placeholder="" value="Teknik Informatika" class="form-control" enabled>
+                </div>
+                <div class="form-group">
+                  <label>Dari : </label><input id="" type="date" placeholder="" value="" class="form-control" enabled>
+                </div>
+                <div class="form-group">
+                  <label>Sampai : </label><input id="" type="date" placeholder="" value="" class="form-control" enabled>
+                </div>
+                <p class="text-center">
+                  <button class="btn btn-template-outlined">Pinjam</button>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Pinjam modal end-->
+
+      <!-- Navbar Start-->
+      <header class="nav-holder make-sticky">
+        <div id="navbar" role="navigation" class="navbar navbar-expand-lg">
+          <div class="container"><a href="index.html" class="navbar-brand home"><img width="60px" src="asset/img/logo" alt="Logo" class="d-none d-md-inline-block"><img width="60px" src="asset/img/logo" alt="Logo" class="d-inline-block d-md-none"><span class="sr-only">Universitas Gunadarma</span></a>
+            <button type="button" data-toggle="collapse" data-target="#navigation" class="navbar-toggler btn-template-outlined"><span class="sr-only">Toggle navigation</span><i class="fa fa-align-justify"></i></button>
+            <div id="navigation" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item dropdown"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">Akademik <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="room.html" class="nav-link">Ruangan</a></li>
+                    <li class="dropdown-item"><a href="equipment.html" class="nav-link">Alat Prasarana</a></li>
+                  </ul>  
+                </li>
+                <li class="nav-item dropdown"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">Non Akademik <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="field" class="nav-link">Lapangan</a></li>
+                    <li class="dropdown-item"><a href="items" class="nav-link">Barang</a></li>
+                  </ul>  
+                </li>
+                <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+            <div id="search" class="collapse clearfix">
+              <form role="search" class="navbar-form">
+                <div class="input-group">
+                  <input type="text" placeholder="Search" class="form-control"><span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button></span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Navbar End-->
+      
+      <!-- Section Index Start -->
+      <div id="heading-breadcrumbs">
+        <div class="container">
+          <div class="row d-flex align-items-center flex-wrap">
+            <div class="col-md-7">
+              <h1 class="h2">Room - Akademik</h1>
+            </div>
+            <div class="col-md-5">
+              <ul class="breadcrumb d-flex justify-content-end">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">Room</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="container">
+          <section class="bar">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="heading">
+                  <h2>Room</h2>
+                </div>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="row portfolio text-center">
+              <div class="col-md-6">
+                <div class="box-image">
+                  <div class="image"><img src="https://kinibisa.com/site/uploads/images/kelas.jpg-v8Fft.jpg" alt="" class="responsive w-100">
+                    <div class="overlay d-flex align-items-center justify-content-center">
+                      <div class="content">
+                        <div class="name">
+                          <h3><a href="room.html" class="color-white">Room D125</a></h3>
+                        </div>
+                        <div class="text">
+                          <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <p class="buttons"><a href="#" data-toggle="modal" data-target="#dipinjam-modal" class="btn btn-template-outlined-white">View</a></p>
+                          <p><strong>Status : Dipakai</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="box-image">
+                  <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlhfAOkDOy9mU31D-uEUewYXKmEa7bHb1ZVL67gDp5mW20VB2I&s" alt="" class="responsive w-100">
+                    <div class="overlay d-flex align-items-center justify-content-center">
+                      <div class="content">
+                        <div class="name">
+                          <h3><a href="portfolio-detail.html" class="color-white">Room E345</a></h3>
+                        </div>
+                        <div class="text">
+                          <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <p class="buttons"><a href="#" data-toggle="modal" data-target="#pinjam-modal" class="btn btn-template-outlined-white">View</a></p>
+                          <p><strong>Status : Kosong</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="box-image">
+                  <div class="image"><img src="https://kinibisa.com/site/uploads/images/kelas.jpg-v8Fft.jpg" alt="" class="responsive w-100">
+                    <div class="overlay d-flex align-items-center justify-content-center">
+                      <div class="content">
+                        <div class="name">
+                          <h3><a href="room.html" class="color-white">Room D125</a></h3>
+                        </div>
+                        <div class="text">
+                          <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <p class="buttons"><a href="#" data-toggle="modal" data-target="#dipinjam-modal" class="btn btn-template-outlined-white">View</a></p>
+                          <p><strong>Status : Dipakai</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="box-image">
+                  <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlhfAOkDOy9mU31D-uEUewYXKmEa7bHb1ZVL67gDp5mW20VB2I&s" alt="" class="responsive w-100">
+                    <div class="overlay d-flex align-items-center justify-content-center">
+                      <div class="content">
+                        <div class="name">
+                          <h3><a href="portfolio-detail.html" class="color-white">Room E345</a></h3>
+                        </div>
+                        <div class="text">
+                          <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <p class="buttons"><a href="#" data-toggle="modal" data-target="#pinjam-modal" class="btn btn-template-outlined-white">View</a></p>
+                          <p><strong>Status : Kosong</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div id="pagination" class="wp-example">
+                <div class="row">
+                  <div class="col-md-12">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination pagination-lg">
+                        <li class="page-item"><a href="#" class="page-link">«</a></li>
+                        <li class="page-item"><a href="#" class="page-link">1</a></li>
+                        <li class="page-item"><a href="#" class="page-link">2</a></li>
+                        <li class="page-item"><a href="#" class="page-link">3</a></li>
+                        <li class="page-item"><a href="#" class="page-link">4</a></li>
+                        <li class="page-item"><a href="#" class="page-link">5</a></li>
+                        <li class="page-item"><a href="#" class="page-link">»</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- Section Non Akademik End -->
+      
+      <!-- FOOTER -->
+      <footer class="main-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <h4 class="h6">Tentang Kami</h4>
+              <p>Kami dari Smooth Team KOMIT Universitas Gunadarma.</p>
+              <hr>
+              <h4 class="h6">Bergabung dengan KOMIT UG</h4>
+              
+              <hr class="d-block d-lg-none">
+            </div>
+            <div class="col-lg-4">
+              <h4 class="h6">Kontak Kami</h4>
+              <ul class="list-unstyled footer-blog-list">
+                <li class="d-flex align-items-center">
+                  <div class="text">
+                    <h5 class="mb-0"><i class="fa fa-phone"></i> <a href="#">+62 812 2134 3456</a></h5>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center">
+                  <div class="text">
+                    <h5 class="mb-0"><i class="fa fa-envelope"></i> <a href="#">smooth.komit@gunadarma.ac.id</a></h5>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center">
+                  <div class="text">
+                    <h5 class="mb-0"><i class="fa fa-map-marker"></i> <a href="#">Universitas Gunadarma</a></h5>
+                  </div>
+                </li>
+              </ul>
+              <hr class="d-block d-lg-none">
+            </div>
+            <div class="col-lg-4">
+              <h4 class="h6">Kritik dan Saran</h4>
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control">
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-secondary"><i class="fa fa-send"></i></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="copyrights">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 text-center-md">
+                <p>&copy; 2019. Gunadarma University</p>
+              </div>
+              <div class="col-lg-8 text-right text-center-md">
+                <p>Design by <a href="#">Smooth Team </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Javascript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
